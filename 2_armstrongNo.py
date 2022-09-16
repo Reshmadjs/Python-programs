@@ -1,10 +1,9 @@
+# findin armstrong number
 import numpy as np
 a=int(input("enter number"))
 
 x=[int(x) for x in str(a)]
 print(x)
-
-
 sum=0
 for i in np.power(x,3):
 	
